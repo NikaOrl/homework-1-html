@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'MyFont1';
+    src: url('resources/AvenirNextCyr-Demi.ttf') format('truetype');
+}
+
+.cityFont {
+    color: #FFFFFF;
+    font-family: MyFont1;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 100%;
+}
+
+.dayFont {
+    color: #FFFFFF;
+    font-family: MyFont1;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+}
+
+.content {
+    width: 33.3%;
+    height: 50%;
+    float: left;
+}
+
+.widget {
+    width: 612px;
+    height: 414px;
+    margin-left: 95px;
+    box-shadow: 0 0 80px #000000 
+}
+
+.backGr {
+    width: 800px;
+    height: 505px;
+    background: url(resources/backGr.jpg) no-repeat;
+    box-shadow: 0 0 80px #000000;
+    padding-top: 95px;
+    /*Расположение в центре*/
+    margin: auto;
+    margin-top: 80px;
+    /*----------------------*/
+}
+
+.extra {
+    background-color: rgb(189, 53, 89);
+    box-shadow: inset 0px 0px 35px 0px rgba(39, 36, 37, 0.22);
+    width: 185px;
+    height: 80px;
+    margin-top: 19px;
+    padding: 10px;
+}
+
+.im {
+    height: 90px;
+    width: 90px; 
+    margin: auto;  
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.im_clicked {
+    height: 64px;
+    width: 64px; 
+    margin: auto;  
+    margin-top: 24px;
+    overflow: hidden;
+}
+
+.day {
+    width: 46px;
+    height: 100%;
+    float: left;
+}
+
+.im_day {
+    height: 24px;
+    width: 24px; 
+    margin: auto;  
+    overflow: hidden;
+}
